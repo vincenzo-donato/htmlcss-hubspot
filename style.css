@@ -1,0 +1,647 @@
+/* Start CSS code page */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* General CSS Common Rules */
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #33475b;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+float: right;
+}
+
+
+/* Start CSS Header of Text */
+/* per il fissare il primo menu */
+.header-top{
+  width: 100%;
+  background-color: rgb(202, 226, 233) ;
+  border-bottom: 2px solid black;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+/* start header top per fissare il secondo menu  */
+/* .header-top{
+  width: 100%;
+  background-color: rgb(205, 217, 227) ;
+  border-bottom: 2px solid black;
+}
+
+.header-down{
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+} */
+
+
+.header-down{
+  margin-top: 80px;
+}
+
+/* per fissare il secondo menu */
+header{
+  display: unset;
+}
+
+.Container{
+  width: 80%;
+  line-height: 60px;
+  margin: auto;
+}
+
+
+a{
+  text-decoration: none;
+  color: #33475b;
+}
+
+ ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#i{
+  color: #000000;
+}
+
+#blackarrow{
+  color: #33475b;
+}
+
+#iblu{
+  color: blue;
+}
+
+
+#pseudobtn{
+  padding: 7px 10px;
+  border: 1px solid #ff7a59 ;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #ff7a59;
+  text-decoration: none;
+}
+
+#pseudobtnorange{
+  padding: 7px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgb(232, 119, 46);
+  color: white;
+  text-decoration: none;
+}
+/* end header top */
+
+
+/* start header down */
+.logo{
+ margin-top: 6px;
+}
+
+.liheaderdown{
+ list-style: none;
+ display: inline-block;
+ margin: 0 20px;
+}
+
+/* end nav header down */
+
+/* start jambotrom header */
+.jambotromheader{
+  width: 100%;
+  height: 615px;
+  background-color: #FFF4EF;
+  background-position: 100 150%;
+  background-image: url(img/jumbotron.png);
+  background-repeat: no-repeat;
+  position: relative;
+  box-shadow: inset 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.jambobody{
+  width: 80%;
+  margin: auto;
+}
+
+.jamboscritta{
+  width: 40%;
+  position: absolute;
+}
+
+.jamboscritta h1{
+  font-size: 50px;
+  color: #33475b;
+  margin: 50px 0px;
+}
+
+.jamboscritta p{
+  color: #33475b;
+  margin-bottom: 50px;
+}
+
+#pseudobtjambo{
+  padding: 20px 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgb(232, 119, 20);
+  color: white;
+  text-decoration: none;
+}
+
+.jamboscritta li{
+  list-style: none;
+  margin-bottom: 50px;
+  color: #33475b;
+}
+
+.message{
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 60%;
+  right: 10px;
+}
+
+.conteiner-img-robot{
+  width: 80%;
+  height: 30px;
+  margin: auto;
+  position: relative;
+}
+
+.img-robot{
+  width: 30%;
+  left: 50%;
+  transform: translatex(-50%);
+  position: absolute;
+}
+
+.conteiner-img-robot span{
+  position: absolute;
+  margin-top: 40px;
+  right: 0;
+}
+
+.conteiner-img-robot i{
+  color: grey;
+}
+
+.conteiner-test-robot{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+
+.conteiner-test-robot i{
+  color: yellow;
+  background-color: #33475b;
+}
+
+.chat i{
+  background-color: #33475b;
+  color: white;
+  font-size: 50px;
+  float: right;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.coverdown{
+  width: 100%;
+  height: 80px;
+  background-color: rgb(15, 173, 156);
+  border-bottom: 3px solid #33475b;
+}
+/* End CSS Header of Text */
+
+
+/* Start CSS Central Body Text */
+main{
+  background-color: rgb(249, 242, 247);
+  width: 100%;
+  }
+
+/* sezione-A */
+  .sezione-a{
+    width: 60%;
+    margin: auto;
+  }
+
+  .sezione-a img{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translatex(-50%);
+  }
+
+  .sezione-a h3{
+    text-align: center;
+  }
+
+  .sezione-a p{
+    text-align: center;
+    margin: 40px 0;
+  }
+
+/* sezione-B */
+.sezione-b{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: white;
+  box-shadow: inset 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.b-sinistra{
+  width: 35%;
+  padding: 80px;
+}
+
+.b-sinistra img{
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+#pseudobtb-sezione{
+  padding: 20px 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgb(232, 119, 20);
+  color: white;
+  text-decoration: none;
+}
+
+.b-destra{
+  width: 65%;
+  padding: 80px 50px;
+}
+
+.h4p{
+  width: 70%;
+}
+
+.b-destra h4{
+margin-bottom: 20px;
+}
+
+.b-destra p{
+margin-bottom: 15px;
+}
+
+.b-destra h5{
+}
+
+ .b-destra hr{
+   width: 400px;
+   margin-top: 28px;
+   margin-left: 40px;
+ }
+
+ .b-destra ul{
+   margin-top: 30px;
+ }
+
+ .b-destra i{
+   color: rgb(232, 119, 20);
+ }
+
+ .sezione-c{
+   width: 80%;
+   margin: auto;
+ }
+
+ .c{
+   width: 30%;
+   padding: 50px;
+   background-color: white;
+   box-shadow: inset 0 3px 8px rgba(0,0,0,0.1);
+  }
+
+ .ca {
+   width: 45%;
+   margin: 10px 0;
+   margin-left: 58px;
+ }
+
+ .cb{
+   width: 56.3%;
+   margin: 10px 0;
+   margin-left: 58px;
+ }
+
+ .cc{
+   width: 41%;
+   margin: 10px 0;
+   margin-left: 58px;
+ }
+
+ .c h4,.p,hr,h5{
+   margin: 20px 0;
+   text-align: center
+ }
+
+ .c i{
+  color: rgb(232, 119, 20);
+ }
+
+ .centro{
+   margin: 0 5%;
+ }
+
+  .c ul{
+    margin-bottom: 50px;
+  }
+
+ #pseudobtb-c{
+   padding: 20px 30px;
+   border: 1px solid white;
+   border-radius: 5px;
+   background-color: rgb(232, 119, 20);
+   color: white;
+   text-decoration: none;
+ }
+
+ .c span{
+  margin-left: 30px;
+ }
+
+ .sezione-d{
+   width: 100%;
+   height: 850px;
+   margin-top: 50px;
+   background-color: rgb(30, 184, 205);
+ }
+
+ .int-d{
+   width: 80%;
+   margin: auto;
+   padding: 50px 0px;
+   text-align: center;
+ }
+
+ .incasellamento{
+   width: 80%;
+
+   margin: auto;
+ }
+
+ .caselle{
+   width: 100%;
+   height: 40%;
+ }
+
+ .lineata{
+    border-bottom: 1px solid white;
+ }
+
+
+ #prima{
+   font-size: 50px;
+   margin-left: 100px;
+   color: white;
+ }
+
+ #seconda{
+   color: white;
+   font-size: 40px;
+   margin-left: 50%;
+   transform: translateX(-50%);
+ }
+
+ .caselle p{
+   text-align: center;
+   font-size: 50px;
+   color: white;
+ }
+
+ .caselle h3{
+   margin: 40px 0;
+   text-align: center;
+   color: white;
+ }
+
+ .scl{
+   width: 37%;
+   color: white;
+   margin-left: 80px;
+ }
+
+ .scl2{
+   width: 50%;
+   color: white;
+   margin-left: 80px;
+   margin-bottom: 13px;
+ }
+
+ .scl3{
+   width: 40%;
+   color: white;
+   margin-left: 80px;
+   margin-bottom: 13px;
+ }
+
+ .scl4{
+   width: 50%;
+   color: white;
+   margin-left: 55px;
+ }
+
+ .casella{
+   width: 25%;
+   height: 100%;
+   padding: 30px 0;
+ }
+
+  .marginato{
+    border-left: 1px solid rgb(98, 152, 200);
+    border-right: 1px solid white;
+
+  }
+
+  /* sezione E */
+  .colorebackground-e{
+    width: 100%;
+    background-color: white;
+  }
+  .sezione-e{
+    width: 80%;
+    margin: auto;
+  }
+
+  .testata-e{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+
+  .e-sinistra{
+    width: 20%;
+    margin-top: 50px;
+  }
+
+  .e-sinistra h2{
+    margin: 10px 0;
+  }
+
+  .e-destra{
+    width: 50%;
+    height: 50px;
+  }
+
+.superiore-img{
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+
+}
+
+  .img{
+    width: 20%;
+    height: 40%;
+    margin-right: 20px;
+    margin-bottom: 70px;
+  }
+
+  .img img{
+    width: 100%;
+  }
+
+  .ces{
+    width: 50%;
+  }
+
+  .ces h3{
+    margin-bottom: 50px;
+  }
+
+  .sotto{
+    margin-top: 50px;
+  }
+
+  #pseudobtces{
+    padding: 20px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(232, 119, 20);
+    color: white;
+    text-decoration: none;
+    margin-bottom: 50px;
+  }
+ .sotto li{
+   display: block;
+ }
+ .sotto div{
+   margin-bottom: 50px;
+ }
+
+ .ced{
+   width: 30%;
+ }
+
+ .ced img{
+   width: 80%
+
+ }
+/* End CSS Central Body Text */
+
+
+/* Start CSS Footer of Text */
+footer{
+  background-color:#33475b;
+  width: 100%;
+  color: white;
+}
+
+.footersuperiore{
+ width: 80%;
+ margin: auto;
+}
+
+.footersuperiore h6{
+  padding: 20px 0px ;
+  font-size: 16px;
+}
+
+.fake-table{
+  width: 20%;
+  margin-right: 5%;
+}
+
+.fake-table a{
+  color: white;
+}
+
+.fake-table li{
+  display: block;
+  margin: 15px 0px;
+}
+
+#btnfooter{
+  padding: 7px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  color: #33475b ;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.iconfooter ul{
+  margin: 10px;
+}
+
+.iconfooter li,i{
+  color: white;
+  margin-right: 3px;
+  display: inline-block;
+}
+
+.icone{
+  margin-right: 5px;
+}
+
+.footerinferiore{
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.footerinferiore ul{
+  text-align: center;
+}
+
+.fine-destra{
+  margin-top: 20px;
+}
+
+.fine-destra span{
+  margin-left: 10px;
+}
+
+ /* End CSS Footer of Text */
